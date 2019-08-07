@@ -46,15 +46,15 @@ const crearProducto = (n, s, p, d) => { // <-- Argumentos
 productoCuatro.mostar()
 productoCinco.mostar()
 
-window.document.write(`Hay ${stock} unidades de ${nombre} que valen ARS ${precio} <br>`)
+// window.document.write(`Hay ${stock} unidades de ${nombre} que valen ARS ${precio} <br>`)
 
-window.document.write(`Hay ${productoUno[1]} unidades de ${productoUno[0]} que valen ARS ${productoUno[2]} <br>`)
+// window.document.write(`Hay ${productoUno[1]} unidades de ${productoUno[0]} que valen ARS ${productoUno[2]} <br>`)
 
-window.document.write(`Hay ${productoDos["stock"]} unidades de ${productoDos["nombre"]} que valen
-						ARS ${productoDos["precio"]} <br>`)
+// window.document.write(`Hay ${productoDos["stock"]} unidades de ${productoDos["nombre"]} que valen
+// 						ARS ${productoDos["precio"]} <br>`)
 
-window.document.write(`Hay ${productoTres.stock} unidades de ${productoTres.nombre} que valen ARS ${productoTres.precio} <br>`)
+// window.document.write(`Hay ${productoTres.stock} unidades de ${productoTres.nombre} que valen ARS ${productoTres.precio} <br>`)
 
-window.document.write(`Hay ${productoCuatro.stock} unidades de ${productoCuatro.nombre} que valen ARS ${productoCuatro.precio} <br>`)
+// window.document.write(`Hay ${productoCuatro.stock} unidades de ${productoCuatro.nombre} que valen ARS ${productoCuatro.precio} <br>`)
 
-window.document.write(`Hay ${productoCinco.stock} unidades de ${productoCinco.nombre} que valen ARS ${productoCinco.precio} <br>`)
+// window.document.write(`Hay ${productoCinco.stock} unidades de ${productoCinco.nombre} que valen ARS ${productoCinco.precio} <br>`)

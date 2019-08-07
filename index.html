@@ -1,5 +1,17 @@
-<h1>Objetos en JavaScript</h1>
+<h1>POO en JavaScript</h1>
 
-<h2>El camino a la POO</h2>
+<h2>Otra forma de ver la realidad</h2>
 
-<script src="objetos.js"></script>
+<section id="catalogo" style="border:dashed 2px"></section>
+
+<script src="producto.class.js"></script>
+<script>
+	let productoUno = new Producto("Te Rojo", 900, 74.25, false) 
+
+ 	let productoDos = new Producto("Submarino", 650, 90.50, true)
+
+ 	productoUno.mostrar ("#catalogo")
+ 	productoDos.mostrar ("#catalogo")
+
+ 	Producto.Comparar(productoUno, productoDos)
+</script>
