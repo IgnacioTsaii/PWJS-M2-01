@@ -11,26 +11,73 @@
     productoDos.Mostrar("#catalogo")
     Producto.Comparar(productoUno, productoDos)
     */
-    let ajax = new XMLHttpRequest()
-    ajax.open("GET", "https://api.myjson.com/bins/1giaf3")
-    ajax.onload = function(){
 
-        if( this.status == 200 ){ // ← Respuesta exitosa!
-            let productos = Producto.parse( this.response )
+    /* Comandos para trabajar con la API Storage de JS */
+    //window.localStorage.setItem("_PRODUCTOS", JSON.stringify(productos) )
+    //window.localStorage.getItem()
+    //window.localStorage.removeItem(  )
+    //window.localStorage.clear(  )
+        let ahora = new Date()
 
-            productos.forEach(producto => {
-                producto.Mostrar("#catalogo")
-            })
-        } else {
-            this.onerror()
+    // NOTA: 3600 * 1000 = 1hs
+    if( (ahora.getTime() - window.localStorage.getItem("_CREACION")) > (3600 * 1000) ){
+
+        window.localStorage.removeItem("_PRODUCTOS")
+    }
+
+    if( !window.localStorage.getItem("_PRODUCTOS") ){
+        let ajax = new XMLHttpRequest()
+        ajax.open("GET", "https://api.myjson.com/bins/1giaf3")
+        ajax.onload = function(){
+
+            if( this.status == 200 ){ // ← Respuesta exitosa!
+
+                window.localStorage.setItem("_PRODUCTOS", this.response )
+                window.localStorage.setItem("_CREACION", ahora.getTime() )
+                //window.localStorage.setItem("_PRODUCTOS", JSON.stringify(productos) )
+
+                ok( this.response )
+
+            /*
+                let productos = Producto.parse( this.response )
+
+                productos.forEach(producto => {
+                    producto.Mostrar("#catalogo")
+                })
+            */
+            } else {
+                this.onerror()
+            }
         }
-    }
-    ajax.onerror = function(){
-        alert("Error... datos no disponibles :(")
-    }
-
-    ///////////////////////////////////////
-    window.onload = function(){ // ← Ejecutar cuando se cargó absolutamente todo...
+        ajax.onerror = function(){
+            alert("Error... datos no disponibles :(")
+        }
         ajax.send()
-    }
+
+        } else {
+            ok( localStorage.getItem("_PRODUCTOS") )
+        }
+
+        // Trabajando con Promesas
+
+        let compromiso = new Promise(function(ok,error) {
+
+            /* ~~ Inicio Proceso ~~ */
+
+            /* ~~ Fin del Proceso ~~ */
+
+        })
+
+        compromiso.then(function(rta) {// ← Que hacer si sale bien...
+            console.log(rta)
+
+            let productos = Producto.parse(rta)
+
+            productos.forEach(productos)
+        })
+
+        compromiso.catch(function(rta) {// ← Que hacer si sale mal...
+            console.error(rta)
+        })
+
 </script>
