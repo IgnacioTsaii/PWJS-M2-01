@@ -2,48 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187c60fd-2c95-4fed-b68f-3595a04c80f0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PWJS-M2-01.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/etalage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/form.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/a-star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/arrow1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/arrow2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/b-arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gpluse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/productos/P001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/productos/P002.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/productos/P003.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/productos/P004.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/productos/P005.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/productos/P006.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/productos/P007.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/review.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tick1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/twitter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/zoom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_viejo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.etalage.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.flexisel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.wmuSlider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/producto.class.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/novedades_es6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/objetos.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/producto.class.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/producto.class.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,21 +16,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="201" column="47" selection-start-line="201" selection-start-column="47" selection-end-line="201" selection-end-column="47" />
+            <state relative-caret-position="87">
+              <caret line="189" column="97" selection-start-line="189" selection-start-column="97" selection-end-line="189" selection-end-column="97" />
+              <folding>
+                <element signature="e#1341#1347#0" expanded="true" />
+                <element signature="e#1348#1354#0" expanded="true" />
+                <element signature="e#1414#1420#0" expanded="true" />
+                <element signature="e#1421#1427#0" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/producto.class.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2195">
+              <caret line="168" column="1" selection-start-line="168" selection-start-column="1" selection-end-line="168" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -101,6 +72,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/js/producto.class.js" />
       </list>
     </option>
   </component>
@@ -180,12 +152,12 @@
       <workItem from="1566849547345" duration="196000" />
       <workItem from="1566997105718" duration="8903000" />
       <workItem from="1567431042604" duration="10479000" />
-      <workItem from="1567602853707" duration="9487000" />
+      <workItem from="1567602853707" duration="10361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40785000" />
+    <option name="totallyTimeSpent" value="41659000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -270,20 +242,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="189" column="97" selection-start-line="189" selection-start-column="97" selection-end-line="189" selection-end-column="97" />
+          <folding>
+            <element signature="e#1341#1347#0" expanded="true" />
+            <element signature="e#1348#1354#0" expanded="true" />
+            <element signature="e#1414#1420#0" expanded="true" />
+            <element signature="e#1421#1427#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/producto.class.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2195">
+          <caret line="168" column="1" selection-start-line="168" selection-start-column="1" selection-end-line="168" selection-end-column="1" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="201" column="47" selection-start-line="201" selection-start-column="47" selection-end-line="201" selection-end-column="47" />
         </state>
       </provider>
     </entry>
